@@ -7,16 +7,13 @@
 
 .navbar{
     height: 70px;
+    width: 100%;
     background-color: black;
     color:white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-    
-    
-    
-    
+    margin-right: 10px;
 }
 .nav-logo {
     height: 60px;
@@ -24,7 +21,7 @@
      display: inline-flex; 
     align-items: center;
     margin-left: 30px;
-    
+    margin-top: 5px;
 }
 .logo{
     
@@ -34,74 +31,58 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position:center;
-    
-
-    
 }
 .nav-address{
     color: white;
     margin-left: 40px;
     height: 55px;
-     
+     margin-right: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction:column ;
-     /* margin-top: 10px;  */
-    
-    
+     /* margin-top: 10px;  */ 
 }
 .add-icon {
     display: flex;
     align-items: center;
-
 }
 .second{
     color: #cccccc;
     font-size: 0.85rem;
     margin-right: 10px;
-    
 }
 .first{
     font-size: 1rem;
     font-weight: bold;
     margin-left: 3px ;
-    
 }
 .border{
      height: 55px; 
     /* width: 100px; */
     
 border: 1.5px solid transparent;
- 
-
-    
-
 }
 .border:hover{
     border: 1.5px solid white;
-
-
 }
 .search-navbar{
     display: flex;
     color: white;
-    height: 40px;
+    height: 45px;
     border-radius: 4px;
     overflow: hidden;
-    width: 349px;
-    
+     width: 600px; 
 }
 .search-input{
-    /* flex-grow:1;
-     */width:349px;
+     /* flex-grow:1;  */
+     width:100%; 
     border: none;
     outline:none;
 }
 .search-select{
     border: none;
     outline: none;
-
 }
 .search-icon{
     display: flex;
@@ -109,18 +90,16 @@ border: 1.5px solid transparent;
     align-items:center;
     background-color:#FEBD68;
     width:36px;
-    height: 40px;
+    height: 45px;
     color: black;
 }
 .search-navbar:hover{
     box-shadow: 0 0 10px #febd69;
     border: 2px solid #febd69;
-
 }
 .search-navbar:focus-within{
     border: 2px solid #f90;
     box-shadow: 0 0 5px #f90;
-
 }
 .forms-sign{
     display:flex;
@@ -128,8 +107,6 @@ border: 1.5px solid transparent;
     color: white;
     height: 60px;
     justify-content: center;
-    
-
 }
 .sign{
  font-size:0.85rem;
@@ -137,4 +114,76 @@ border: 1.5px solid transparent;
 .account{
     font-size:1rem;
     font-weight: bold;
+}
+.returns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.p1{
+    font-size:0.85rem;
+    margin-top: 11px;
+}
+.p2{
+    font-size:1rem;
+    font-weight: bold;   
+}
+.cart{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cart-icon{
+    display: flex;
+    font-size:29px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.cart1{
+    font-size:1rem;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.panel-bar{
+    display:flex;
+}
+.panel-bar{
+    display: flex;
+    height:35px;
+    width:100%;
+    background-color:#232f3e;
+    color:white;
+    padding: 0 40px;
+}
+.deals{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap:15px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.menu-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap:5px;
+    cursor: pointer;
+    font-size: bold;
+}
+.shop{
+    margin-left: auto;
+    cursor: pointer;
+    font-weight: bold;
+}
+.hero-section{
+    height: 550px;
+    width:100%;
+    background-image: url("hasnain.jpg");
+    background-size: cover;
+    
 }
