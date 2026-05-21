@@ -183,7 +183,56 @@ border: 1.5px solid transparent;
 .hero-section{
     height: 550px;
     width:100%;
-    background-image: url("hasnain.jpg");
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0) 40%,#eaeded 100%), url("hasnain.jpg");
     background-size: cover;
+    background-position: center;
     
+}
+.shop-section{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    background-color: transparent;
+    gap:20px;
+    width:100%;
+    flex-wrap: wrap;  
+        justify-content: space-around;
+        margin-top: -300px;
+        z-index: 2;
+        background-position: relative;
+        box-sizing: border-box;
+        padding: 0 40px 60px 40px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    /* width:23%; */
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+    
+    
+    
+}
+.box-image{
+    height:200px;
+    width:100%;
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+
+}
+h2{
+    margin-bottom:8px;
+}
+a{
+    margin-top: 40px;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:#eaeded;
+    font-family:Arial, sans-serif;
 }
